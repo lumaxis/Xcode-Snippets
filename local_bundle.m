@@ -1,5 +1,5 @@
-// Local bundle
-// 
+// Local NSBundle
+// Get 
 //
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 5F213A6A-0692-4618-B19C-248069FB10A5
