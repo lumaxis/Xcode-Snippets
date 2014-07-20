@@ -15,6 +15,6 @@ NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> e
   NSError *jsonError = nil;
 <#object type#> *data = [NSJSONSerialization JSONObjectWithData:jsonData options:<#options#> error:&jsonError];
   
-  if (dataArray.count == 0) {
+  if (data.count == 0) {
     NSLog(@"JSON Serialization error: %@", jsonError);
   }
