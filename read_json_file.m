@@ -7,7 +7,7 @@
 // IDECodeSnippetPlatformFamily: iphoneos
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-NSString *filePath = [unitTestBundle pathForResource:<#name#> ofType:@"<#filetype#>"];
+NSString *filePath = [<#bundle name#> pathForResource:<#name#> ofType:@"<#filetype#>"];
   
 NSError *fileError;
 NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> error:&fileError ];
