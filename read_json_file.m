@@ -1,5 +1,5 @@
 // Read JSON file
-// 
+// Easy method to read a JSON file and unarchive it
 //
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 72B8255E-8F93-4ADB-942E-DB013DB2B19C
