@@ -7,7 +7,6 @@
 // IDECodeSnippetPlatformFamily: iphoneos
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-  NSBundle *unitTestBundle = [NSBundle bundleForClass:[self class]];
 NSString *filePath = [unitTestBundle pathForResource:<#name#> ofType:@"<#filetype#>"];
   
 NSError *fileError;
