@@ -8,7 +8,7 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
   NSBundle *unitTestBundle = [NSBundle bundleForClass:[self class]];
-NSString *filePath = [unitTestBundle pathForResource:<#n ofType:@"json"];
+NSString *filePath = [unitTestBundle pathForResource:<#name##> ofType:@"json"];
   
   NSError *jsonError = nil;
   NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:kNilOptions error:&jsonError ];
