@@ -10,8 +10,8 @@
   NSBundle *unitTestBundle = [NSBundle bundleForClass:[self class]];
 NSString *filePath = [unitTestBundle pathForResource:<#name#> ofType:@"<#filetype#>"];
   
-    NSError *
-NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> error:&jsonError ];
+NSError *fileError;
+NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> error:&jfiError ];
   NSError *jsonError = nil;
 <#object type#> *data = [NSJSONSerialization JSONObjectWithData:jsonData options:<#options#> error:&jsonError];
   
