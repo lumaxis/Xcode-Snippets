@@ -6,4 +6,4 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-NSBundle *unitTestBundle = [NSBundle bundleForClass:[self class]];
+NSBundle *<#bundle name#> = [NSBundle bundleForClass:[self class]];
