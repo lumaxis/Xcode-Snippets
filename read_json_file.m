@@ -11,7 +11,7 @@
 NSString *filePath = [unitTestBundle pathForResource:<#name#> ofType:@"<#filetype#>"];
   
   NSError *jsonError = nil;
-  NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:kNilOptions error:&jsonError ];
+NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options error:&jsonError ];
   NSArray *dataArray = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&jsonError];
   
   if (dataArray.count == 0) {
