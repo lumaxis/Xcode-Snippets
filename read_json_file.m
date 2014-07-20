@@ -11,7 +11,7 @@
 NSString *filePath = [unitTestBundle pathForResource:<#name#> ofType:@"<#filetype#>"];
   
 NSError *fileError;
-NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> error:&jfiError ];
+NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> error:&fileError ];
   NSError *jsonError = nil;
 <#object type#> *data = [NSJSONSerialization JSONObjectWithData:jsonData options:<#options#> error:&jsonError];
   
