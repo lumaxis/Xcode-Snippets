@@ -12,7 +12,7 @@ NSString *filePath = [unitTestBundle pathForResource:<#name#> ofType:@"<#filetyp
   
   NSError *jsonError = nil;
 NSData *jsonData = [NSData dataWithContentsOfFile:filePath options:<#options#> error:&jsonError ];
-<#object type *data = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&jsonError];
+<#object type#> *data = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&jsonError];
   
   if (dataArray.count == 0) {
     NSLog(@"JSON Serialization error: %@", jsonError);
