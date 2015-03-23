@@ -16,7 +16,7 @@
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
-    return <#number#>
+    return <#number#>;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView

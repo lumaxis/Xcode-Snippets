@@ -1,5 +1,5 @@
 // __weak self
-// Declare weak referece to self
+// Declare weak reference to self
 //
 // IDECodeSnippetCompletionPrefix: welf
 // IDECodeSnippetCompletionScopes: [All]
